@@ -419,3 +419,174 @@ h3>b{
   margin: 0 10px;
 }
 
+/* ----------------- MEDIA QUERIES ------------------ */
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+  .main-wrapper {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .navbar-left, .navbar-right {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .left-section,
+  .right-section {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+    height: 400px;
+  }
+
+  .download-mobile-app-list {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .mobile-app-img {
+    position: relative;
+    top: auto;
+    right: auto;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .iframe-container > .iframe {
+    width: 90%;
+    height: 480px;
+  }
+
+  .grid-container {
+    padding: 30px 10px;
+  }
+
+  .fm-images img,
+  .fm-list-BE img {
+    width: 120px;
+    margin: 10px;
+  }
+}
+
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  h1,
+  .left-section h1 {
+    font-size: 2rem;
+  }
+
+  .left-section p {
+    font-size: 1rem;
+  }
+
+  textarea {
+    height: 300px;
+    font-size: 0.95rem;
+  }
+
+  .btn-outline,
+  .btn-fill {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .note > p {
+    font-size: 16px;
+  }
+
+  .container-1 {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .download-mobile-app-list {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .download-mobile-app-list p:first-child {
+    font-size: 30px;
+  }
+
+  .mobile-app-img {
+    display: none;
+  }
+
+  .mobile-app-img img {
+    width: 180px;
+    margin: 10px auto;
+    position: static !important;
+  }
+
+  .iframe-container > .iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .iframe-container h2 {
+    font-size: 26px;
+  }
+
+  .iframe-container > p {
+    font-size: 16px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+  }
+
+  .tag1-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-main {
+    padding: 30px 15px;
+  }
+
+  .fm-navbar-logo img {
+    width: 120px;
+  }
+
+  .fm-list1 span,
+  .fm-list2 span,
+  .footer-fm-list span {
+    display: block;
+    margin: 6px 0;
+  }
+
+  .fm-images img,
+  .fm-list-BE img {
+    width: 100px;
+    margin: 10px 0;
+  }
+
+  .fm-footer-tsp {
+    font-size: 0.75em;
+  }
+}
