@@ -35,7 +35,7 @@ a:hover{
 }
 
 .navbar a:hover {
-  opacity: 0.85;
+  /* opacity: 0.85; */
   text-decoration: underline;
 }
 .navbar-right .light {
@@ -421,6 +421,13 @@ h3>b{
 
 /* ----------------- MEDIA QUERIES ------------------ */
 
+
+
+@media (width>=1260px){
+  .mobile-app-img {
+    display: none;
+  }
+}
 /* Tablets (768px - 1024px) */
 @media (max-width: 1024px) {
   .main-wrapper {
@@ -463,11 +470,12 @@ h3>b{
   }
 
   .mobile-app-img {
-    position: relative;
+    /* position: relative;
     top: auto;
     right: auto;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 20px; */
+    display: none;
   }
 
   .iframe-container > .iframe {
