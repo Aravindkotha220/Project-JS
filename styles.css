@@ -425,7 +425,7 @@ h3>b{
 
 @media (min-width: 1024px) and (max-width:1260px){
   .mobile-app-img {
-    /* display: none; */
+    display: none;
   }
 }
 /* Tablets (768px - 1024px) */
